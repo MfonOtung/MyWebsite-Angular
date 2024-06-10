@@ -8,5 +8,32 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-
+  headerTitles = [
+    {
+      name: "Home", 
+      href: "#header",
+      className: "active"
+    },
+    {
+      name: "About Me", 
+      href: "#aboutme",
+      className: ""
+    },
+    {
+      name: "My Skills", 
+      href: "#myskills",
+      className: ""
+    },
+    {
+      name: "Experience", 
+      href: "#experience",
+      className: ""
+    },
+    {
+      name: "Contact", 
+      href: "#contact",
+      className: ""
+    },
+    
+  ]
 }
