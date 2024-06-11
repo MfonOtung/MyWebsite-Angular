@@ -108,6 +108,7 @@ a, a:hover, a:active {
 .grid figure h2 {
 	word-spacing: -0.15em;
 	font-weight: 300;
+   
 }
 
 .grid figure h2 span {
@@ -223,6 +224,15 @@ h3 {
     color: #222222;
     font-size: 18px;
     margin: 0 0 5px 0;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #555454;
+    font-size: 18px;
+    margin: 0 0 5px 0; 
+    margin-left: 20px;
 }
 
 h6 {
