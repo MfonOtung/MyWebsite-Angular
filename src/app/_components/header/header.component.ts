@@ -20,13 +20,18 @@ export class HeaderComponent {
       className: ""
     },
     {
+      name: "Experience", 
+      href: "#experience",
+      className: ""
+    },
+    {
       name: "My Skills", 
       href: "#myskills",
       className: ""
     },
     {
-      name: "Experience", 
-      href: "#experience",
+      name: "Portfolio", 
+      href: "#portfolio",
       className: ""
     },
     {
