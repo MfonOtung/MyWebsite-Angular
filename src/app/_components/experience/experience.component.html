@@ -7,19 +7,18 @@
                     <h2><span>Experience</span></h2>
                 </div>
                 <div class="row"></div>
-                <div class="col-sm-6 news-item">
-                    <div class="news-content">
-                        @for (item of myExperince; track item) 
-                        {
-                            <h2 class="news-title">{{item.company}}</h2> 
-                            <span>{{item.position}}</span>
-                            <p>{{item.date}}</p>
-                            <p>{{item.description}}</p>
-                            <a class="read-more" href="Desktop/CV/Mfon_Essien_OTUNG _CV.pdf" target="_blank" download>More Details</a>
-                        }
-                        
+                @for (item of myExperince; track item)
+                { 
+                    <div class="col-sm-6 news-item left">
+                        <div class="news-content">
+                                <h2 class="news-title">{{item.company}}</h2> 
+                                <span>{{item.position}}</span>
+                                <p>{{item.date}}</p>
+                                <p>{{item.description}}</p>
+                                <a class="read-more" href="Desktop/CV/Mfon_Essien_OTUNG _CV.pdf" target="_blank" download>More Details</a>  
+                        </div>
                     </div>
-                </div>
+                }
 
                 <!-- <div class="col-sm-6 news-item">
                     <div class="news-content">
@@ -73,3 +72,4 @@
       </section>
     </div>				                                                      
   </section>
+  
