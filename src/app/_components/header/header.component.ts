@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HeaderService } from '../../_services/header.service';
 
 @Component({
   selector: 'mfon-header',
@@ -8,37 +9,13 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  headerTitles = [
-    {
-      name: "Home", 
-      href: "#header",
-      className: "active"
-    },
-    {
-      name: "About Me", 
-      href: "#aboutme",
-      className: ""
-    },
-    {
-      name: "Experience", 
-      href: "#experience",
-      className: ""
-    },
-    {
-      name: "My Skills", 
-      href: "#myskills",
-      className: ""
-    },
-    {
-      name: "Portfolio", 
-      href: "#portfolio",
-      className: ""
-    },
-    {
-      name: "Contact", 
-      href: "#contact",
-      className: ""
-    },
-    
-  ]
+  headerTitles: any
+
+  constructor(private headS: HeaderService){
+    this.headerTitles = headS.getHeaders()
+  }
+
+
+
+
 }
