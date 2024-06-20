@@ -9,72 +9,64 @@ import { SkillService } from '../../_services/skill.service';
   styleUrl: './my-skills.component.css'
 })
 export class MySkillsComponent {
-    techSkills: any
-    softSkills: any
-
-      constructor(private techSkillService: SkillService, private softSkillService: SkillService){
-        this.techSkills = techSkillService.getTechSkills()
-        this.softSkills = softSkillService.getSoftSkills()
-      }
-
-  // techSkills = [
-  //   {
-  //     skillName: "Java",
-  //     colour: "warning",
-  //     range: "70",
-  //     style: "width: 70%",
-  //     progressBar: "70%"
-  //   },
-  //   {
-  //     skillName: "Springboot",
-  //     colour: "info",
-  //     range: "65",
-  //     style: "width: 65%",
-  //     progressBar: "65%"
-  //   },
-  //   {
-  //     skillName: "HTML",
-  //     colour: "success",
-  //     range: "60",
-  //     style: "width: 60%",
-  //     progressBar: "60%"
-  //   },
-  //   {
-  //     skillName: "CSS",
-  //     colour: "info",
-  //     range: "50",
-  //     style: "width: 50%",
-  //     progressBar: "50%"
-  //   },
-  //   {
-  //     skillName: "Angular",
-  //     colour: "warning",
-  //     range: "50",
-  //     style: "width: 50%",
-  //     progressBar: "50%"
-  //   },
-  //   {
-  //     skillName: "Bootsrap",
-  //     colour: "purple",
-  //     range: "50",
-  //     style: "width: 50%",
-  //     progressBar: "50%"
-  //   },
-  //   {
-  //     skillName: "Python",
-  //     colour: "crimson",
-  //     range: "30",
-  //     style: "width: 30%",
-  //     progressBar: "30%"
-  //   },
-  //   {
-  //     skillName: "MySQL",
-  //     colour: "middleslateblau",
-  //     range: "30",
-  //     style: "width: 30%",
-  //     progressBar: "30%"
-  //   },
-  // ]
+  techSkills = [
+    {
+      skillName: "Java",
+      colour: "warning",
+      range: "70",
+      style: "width: 70%",
+      progressBar: "70%"
+    },
+    {
+      skillName: "Springboot",
+      colour: "info",
+      range: "65",
+      style: "width: 65%",
+      progressBar: "65%"
+    },
+    {
+      skillName: "HTML",
+      colour: "success",
+      range: "60",
+      style: "width: 60%",
+      progressBar: "60%"
+    },
+    {
+      skillName: "CSS",
+      colour: "info",
+      range: "50",
+      style: "width: 50%",
+      progressBar: "50%"
+    },
+    {
+      skillName: "Angular",
+      colour: "warning",
+      range: "50",
+      style: "width: 50%",
+      progressBar: "50%"
+    },
+    {
+      skillName: "Bootsrap",
+      colour: "purple",
+      range: "50",
+      style: "width: 50%",
+      progressBar: "50%"
+    },
+    {
+      skillName: "Python",
+      colour: "crimson",
+      range: "30",
+      style: "width: 30%",
+      progressBar: "30%"
+    },
+    {
+      skillName: "MySQL",
+      colour: "middleslateblau",
+      range: "30",
+      style: "width: 30%",
+      progressBar: "30%"
+    },
+  ]
   
   // softSkills = [
   //   {
